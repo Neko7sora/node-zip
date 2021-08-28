@@ -3,30 +3,10 @@
   "name": "node-zip",
   "description": "node-zip - Zip/Unzip files ported from JSZip",
   "version": "1.1.1",
-  "homepage": "https://github.com/daraosn/node-zip",
-  "repository": {
-    "url": "git://github.com/daraosn/node-zip.git"
-  },
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "David Duponchel",
-      "email": "d.duponchel@gmail.com"
-    }
-  ],
-  "keywords": [
-    "zip",
-    "unzip",
-    "jszip",
-    "node-zip",
-    "compression"
-  ],
-  "bin": {
-    "nodezip": "bin/nodezip"
-  },
   "main": "lib/nodezip.js",
   "dependencies": {
-    "jszip" : "2.5.0"
+    "jszip" : "3.7.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
