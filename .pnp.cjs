@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "@Neko7sora/node-zip",
+        "name": "@neko7sora/node-zip",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["@Neko7sora/node-zip", ["workspace:."]]
+      ["@neko7sora/node-zip", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -35,76 +35,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["jszip", "npm:3.7.1"]
+            ["jszip", "npm:2.6.1"]
           ],
           "linkType": "SOFT",
         }]
       ]],
-      ["@Neko7sora/node-zip", [
+      ["@neko7sora/node-zip", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@Neko7sora/node-zip", "workspace:."],
-            ["jszip", "npm:3.7.1"]
+            ["@neko7sora/node-zip", "workspace:."],
+            ["jszip", "npm:2.6.1"]
           ],
           "linkType": "SOFT",
         }]
       ]],
-      ["core-util-is", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/core-util-is-npm-1.0.2-9fc2b94dc3-7a4c925b49.zip/node_modules/core-util-is/",
-          "packageDependencies": [
-            ["core-util-is", "npm:1.0.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["immediate", [
-        ["npm:3.0.6", {
-          "packageLocation": "./.yarn/cache/immediate-npm-3.0.6-c27588a2d3-f9b3486477.zip/node_modules/immediate/",
-          "packageDependencies": [
-            ["immediate", "npm:3.0.6"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["inherits", [
-        ["npm:2.0.4", {
-          "packageLocation": "./.yarn/cache/inherits-npm-2.0.4-c66b3957a0-4a48a73384.zip/node_modules/inherits/",
-          "packageDependencies": [
-            ["inherits", "npm:2.0.4"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["isarray", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/isarray-npm-1.0.0-db4f547720-f032df8e02.zip/node_modules/isarray/",
-          "packageDependencies": [
-            ["isarray", "npm:1.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["jszip", [
-        ["npm:3.7.1", {
-          "packageLocation": "./.yarn/cache/jszip-npm-3.7.1-4ec3dbc6c4-67d737a82b.zip/node_modules/jszip/",
+        ["npm:2.6.1", {
+          "packageLocation": "./.yarn/cache/jszip-npm-2.6.1-eeffa2b611-0a7e928162.zip/node_modules/jszip/",
           "packageDependencies": [
-            ["jszip", "npm:3.7.1"],
-            ["lie", "npm:3.3.0"],
-            ["pako", "npm:1.0.11"],
-            ["readable-stream", "npm:2.3.7"],
-            ["set-immediate-shim", "npm:1.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["lie", [
-        ["npm:3.3.0", {
-          "packageLocation": "./.yarn/cache/lie-npm-3.3.0-35ddd11a4d-33102302cf.zip/node_modules/lie/",
-          "packageDependencies": [
-            ["lie", "npm:3.3.0"],
-            ["immediate", "npm:3.0.6"]
+            ["jszip", "npm:2.6.1"],
+            ["pako", "npm:1.0.11"]
           ],
           "linkType": "HARD",
         }]
@@ -114,68 +65,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/pako-npm-1.0.11-b8f1b69d3e-1be2bfa1f8.zip/node_modules/pako/",
           "packageDependencies": [
             ["pako", "npm:1.0.11"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["process-nextick-args", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/process-nextick-args-npm-2.0.1-b8d7971609-1d38588e52.zip/node_modules/process-nextick-args/",
-          "packageDependencies": [
-            ["process-nextick-args", "npm:2.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["readable-stream", [
-        ["npm:2.3.7", {
-          "packageLocation": "./.yarn/cache/readable-stream-npm-2.3.7-77b22a9818-e4920cf754.zip/node_modules/readable-stream/",
-          "packageDependencies": [
-            ["readable-stream", "npm:2.3.7"],
-            ["core-util-is", "npm:1.0.2"],
-            ["inherits", "npm:2.0.4"],
-            ["isarray", "npm:1.0.0"],
-            ["process-nextick-args", "npm:2.0.1"],
-            ["safe-buffer", "npm:5.1.2"],
-            ["string_decoder", "npm:1.1.1"],
-            ["util-deprecate", "npm:1.0.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["safe-buffer", [
-        ["npm:5.1.2", {
-          "packageLocation": "./.yarn/cache/safe-buffer-npm-5.1.2-c27fedf6c4-f2f1f7943c.zip/node_modules/safe-buffer/",
-          "packageDependencies": [
-            ["safe-buffer", "npm:5.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["set-immediate-shim", [
-        ["npm:1.0.1", {
-          "packageLocation": "./.yarn/cache/set-immediate-shim-npm-1.0.1-f1ac810b1a-5085c84039.zip/node_modules/set-immediate-shim/",
-          "packageDependencies": [
-            ["set-immediate-shim", "npm:1.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["string_decoder", [
-        ["npm:1.1.1", {
-          "packageLocation": "./.yarn/cache/string_decoder-npm-1.1.1-e46a6c1353-9ab7e56f9d.zip/node_modules/string_decoder/",
-          "packageDependencies": [
-            ["string_decoder", "npm:1.1.1"],
-            ["safe-buffer", "npm:5.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["util-deprecate", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",
-          "packageDependencies": [
-            ["util-deprecate", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }]

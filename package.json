@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "lib/nodezip.js",
   "dependencies": {
-    "jszip": "3.7.1"
+    "jszip": "2.6.1"
   },
   "engines": {
     "node": "*"
